@@ -12,7 +12,8 @@ gem 'bootstrap-sass'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise', '~> 3.5.2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
-
+gem 'aws-sdk', '~>2.1.31'
+gem 'masonry-rails', '~> 0.2.0'
 group :development, :test do
 	gem 'sqlite3'
 end
