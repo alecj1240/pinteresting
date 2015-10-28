@@ -10,17 +10,19 @@ $navbar-height: 55px;
 $navbar-brand: 55px;
 
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 
 .center {
 	text-align: center;
 }
 
-.right-link {
-	font-size: 16px;
-}
-
 .navbar-brand {
 	font-size: 20px;
+}
+
+.btn-nav-bar {
+	height: 15px;
 }
